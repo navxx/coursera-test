@@ -1,8 +1,194 @@
-h1 {
-	text-align: right;
-	background-color: red;
-	border-width: 20px;
-	border-color: black; 
-	width: 125px;
-	padding: 50px;
+@media (min-width: 992px) {
+
+	section {
+		background-color:grey;
+		float: left;
+		border: solid black 1px;
+		margin: 15px;
+		width: 30%;
+		padding: 0px;
+	}
+
+	#titulo{
+		text-align: center;
+		font-family: arial;
+		font-style: italic;
+	}
+
+	#pollo {
+		background-color: red;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	#carne {
+		background-color: yellow;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	#sushi {
+		background-color: green;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	.submenu{
+		font-family: arial;
+		font-style: italic;
+		border: solid black 1px;
+		font-size: 100%
+	}
+
+	p {
+		float: right;
+		padding: 5px;
+		font-family: calibri;
+		font-size: 18px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	section {
+		background-color:grey;
+		float: left;
+		border: solid black 1px;
+		margin: 15px;
+		width: 30%;
+		padding: 0px;
+	}
+
+	#sushisec {
+		width: 93%;
+	}
+
+	#pollosec{
+		width: 45%;
+	}
+
+	#carnesec{
+		width: 45%;
+	}
+
+	#titulo{
+		text-align: center;
+		font-family: arial;
+		font-style: italic;
+	}
+
+	#pollo {
+		background-color: red;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	#carne {
+		background-color: yellow;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	#sushi {
+		background-color: green;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+		margin-top: 0px;
+	}
+
+	.submenu{
+		font-family: arial;
+		font-style: italic;
+		border: solid black 1px;
+	}
+
+	p {
+		float: right;
+		padding: 5px;
+		font-family: calibri;
+		font-size: 18px;
+	}
+}
+
+/* CELULARES */
+
+@media (max-width: 767px) {
+
+	section {
+		background-color:grey;
+		float: left;
+		border: solid black 1px;
+		margin: 15px;
+		width: 30%;
+		padding: 0px;
+	}
+
+	#sushisec {
+		width: 93%;
+	}
+
+	#pollosec{
+		width: 93%;
+	}
+
+	#carnesec{
+		width: 93%;
+	}
+
+	#titulo{
+		text-align: center;
+		font-family: arial;
+		font-style: italic;
+	}
+
+	#pollo {
+		background-color: red;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	#carne {
+		background-color: yellow;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+	}
+
+	#sushi {
+		background-color: green;
+		width: 25%;
+		text-align: center;
+		float: right;
+		margin:2px;
+		margin-top: 0px;
+	}
+
+	.submenu{
+		font-family: arial;
+		font-style: italic;
+		border: solid black 1px;
+	}
+
+	p {
+		float: right;
+		padding: 5px;
+		font-family: calibri;
+		font-size: 18px;
+	}
 }
