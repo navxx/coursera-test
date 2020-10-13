@@ -3,4 +3,6 @@ h1 {
 	background-color: red;
 	border-width: 20px;
 	border-color: black; 
+	width: 125px;
+	padding: 50px;
 }
