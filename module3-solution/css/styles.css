@@ -1,0 +1,67 @@
+body {
+	background-color: #A9CEDE;
+}
+
+#header-nav {
+	background-color: #297CFF;
+}
+.navbar-brand {
+	padding-bottom: 25px;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-weight: bold;
+	margin: 0px;
+	line-height: .75;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #A9CEDE;
+    border-width: 3px;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(169, 206, 222, 2)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+.nav-item a:hover{
+	text-decoration: none;
+}
+
+li {
+	text-align: center;
+}
+
+#header-nav {
+	border-radius: 5px;
+}
+
+#nav-list a{
+	color: black;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.comidas {
+	float: left;
+	margin: 20px;
+	margin-bottom: 10px;
+	background-color: #76C8FF;
+	border-radius: 5px;
+}
+
+.titulos {
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#teri {
+	margin-top: 100px;
+}
